@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color:floralwhite;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #666666;
+}
+
+.order-results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order-result{
+  display:flex;
+  flex-direction: column;
+  width: 21%;
+  margin: 1%;
+  background-color: mistyrose;
+  padding: 1%
+}
+
+ul.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.tile{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: mistyrose;
+  padding: 1%;
+  width: 25%;
+}
+
+input, select{
+  margin-bottom: 5%;
+}
+
+form {
+  width: auto;
+}
